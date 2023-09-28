@@ -1,19 +1,64 @@
 body{
-    background-color: gray;
+    background-color: azure;
+    font-family: Verdana;
+    border-radius: 50px;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title{
-    color: blue;
+    color: black;
+}
+
+.photo{
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: line-through;
+    color: black;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post{
     background-color: white;
     padding: 10px;
     border: 3px solid black;
-    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.post_image{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contatcs_list{
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.contatcs_list li a{
+    color: blue;
+    text-decoration: none;
 }
